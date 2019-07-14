@@ -15,6 +15,6 @@ Similarities between Ruby, Javascript and Python languages
 | Destructuring |``` a,b,c = [2,3,4] ; p b```|``` var {x : a , y: b} = {x : 1, y : 2} ; console.log(b) ```|```a,b,c = [2,3,4]```|
 | Array select, filter |```x.select{\|el\| el > 4 }```|```x.filter((el)=> el > 4)```|```filter(lambda el: el > 4, x)```|
 | Array reduce |```x.reduce(:+)```|```lx.reduce((result,el)=> result + el,0) ```|```reduce(lambda result,y: result + y, x) ```|
-| Array map |```x.map{|el| el*2}```|```lx.map((el)=> el*2) ```|```map(lambda el: el*2,x)```|
+| Array map |```x.map{\|el\| el*2}```|```lx.map((el)=> el*2) ```|```map(lambda el: el*2,x)```|
 
 
