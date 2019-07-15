@@ -24,9 +24,10 @@ An analogy between the Ruby, Javascript and Python languages
 | Remove first element|```x.shift(9) ```|```x.shift()```|``` x.remove(x[0]) ; del x[0] ```|
 | Add last element|```x.push(9) ; x.append(9)```|```x.push(9); y.concat(5)```|``` x.append(9); x.extend([9]); x.insert(len(x), 9)```|
 | Add first element|```x.unshift(2)```|```x.unshift(2)```|``` x.insert(0,2) ```|
-| Sort |```x.sort```|```tx.sort() ```|```x.sort()```|
+| Sort |```x.sort```|```x.sort() ```|```x.sort()```|
 | Reverse|```x.reverse```|```x.reverse()```|```x.reverse()```| 
 | Count|```x.count(6)```|```var count = {};``` <br/> ```y.forEach(val => count[val] = (count[val] \|\| 0) + 1);```|```x.count(6)```| 
+| Length|```x.length; x.size,; x.count```|```y.length```|```len(y)```| 
 |index|```x.index(3)```|```x.indexOf(3)```|```x.index(3)```|
 |insert|```x.insert(2, 'Feb')```|```x.splice(1, 0, 'Feb')```|```x.insert(2, 'Feb')```|
 | Make a copy|```y = x.dup ```|```let y = [...x] ```|``` y = x[:] ```|
