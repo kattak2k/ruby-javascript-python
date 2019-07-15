@@ -34,5 +34,6 @@ An analogy between the Ruby, Javascript and Python languages
 | Select, filter |```x.select{\|el\| el > 4 }```|```x.filter((el)=> el > 4)```|```filter(lambda el: el > 4, x)```|
 | Reduce |```x.reduce(:+)```|```lx.reduce((result,el)=> result + el,0) ```|```reduce(lambda result,y: result + y, x) ```|
 | Map |```x.map{\|el\| el*2}```|```lx.map((el)=> el*2) ```|```map(lambda el: el*2,x)```|
+| Each |``` z = []```  </br> ``` x.each{\|el\| z << el*2}``` </br> ```p z ``` |```let z = []``` </br> ```lx.forEach((el) => z.push(el * 2))``` </br> ```console.log(z)```|``` for e in y: ``` </br> ```z.append(e * 2)```</br> ```print z ```|
 | Clear , Reset |```x.clear```|```x = [] ```|```del x[:]```|
 |<template>|``` ```|``` ```|``` ```|
