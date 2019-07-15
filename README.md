@@ -20,6 +20,7 @@ Similarities between Ruby, Javascript and Python languages
 | Description   |Ruby           | Javascript     |Python |
 | ------------- |:--------------:| :-----:|:--------:|
 |remove last element|```x.pop ; x.pop(2)```|```x.pop()```|```x.pop() ```|
+|remove first element|```x.shift ; x.shift(2)```|```x.shift()```|``` x.remove(x[0]) ; del x[0] ```|
 | Select, filter |```x.select{\|el\| el > 4 }```|```x.filter((el)=> el > 4)```|```filter(lambda el: el > 4, x)```|
 | Reduce |```x.reduce(:+)```|```lx.reduce((result,el)=> result + el,0) ```|```reduce(lambda result,y: result + y, x) ```|
 | Map |```x.map{\|el\| el*2}```|```lx.map((el)=> el*2) ```|```map(lambda el: el*2,x)```|
