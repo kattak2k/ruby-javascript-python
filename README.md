@@ -27,7 +27,7 @@ An analogy between the Ruby, Javascript and Python languages
 | Sort |```x.sort```|```tx.sort() ```|```x.sort()```|
 | Reverse|```x.reverse```|```x.reverse()```|```x.reverse()```| 
 | Count|```x.count(6)```|```x.count(6)```|```var count = {};``` <br/> ```y.forEach(val => count[val] = (count[val] \|\| 0) + 1);```| 
-|index|```x.index(3)```|```indexOf(3)```|```x.index(3)```|
+|index|```x.index(3)```|```x.indexOf(3)```|```x.index(3)```|
 | Make a copy|```y = x.dup ```|```let y = [...x] ```|``` y = x[:] ```|
 | Select, filter |```x.select{\|el\| el > 4 }```|```x.filter((el)=> el > 4)```|```filter(lambda el: el > 4, x)```|
 | Reduce |```x.reduce(:+)```|```lx.reduce((result,el)=> result + el,0) ```|```reduce(lambda result,y: result + y, x) ```|
