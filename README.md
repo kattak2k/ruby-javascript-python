@@ -19,8 +19,10 @@ Similarities between Ruby, Javascript and Python languages
 ## Arrays Functions where x is [3,4,5,6,7,8]
 | Description   |Ruby           | Javascript     |Python |
 | ------------- |:--------------:| :-----:|:--------:|
-|remove last element|```x.pop ; x.pop(2)```|```x.pop()```|```x.pop() ```|
-|remove first element|```x.shift ; x.shift(2)```|```x.shift()```|``` x.remove(x[0]) ; del x[0] ```|
+| Remove last element|```x.pop ; x.pop(2)```|```x.pop()```|```x.pop() ```|
+| Remove first element|```x.shift(9) ```|```x.shift()```|``` x.remove(x[0]) ; del x[0] ```|
+| Add last element|```x.push(9) ; x.append(9)```|```x.push(9)```|``` x.append(9); x.extend([9]); x.insert(len(x), 55)```|
+| Add first element|```x.unshift(2)```|```x.unshift(2)```|``` x.insert(0,2) ```|
 | Select, filter |```x.select{\|el\| el > 4 }```|```x.filter((el)=> el > 4)```|```filter(lambda el: el > 4, x)```|
 | Reduce |```x.reduce(:+)```|```lx.reduce((result,el)=> result + el,0) ```|```reduce(lambda result,y: result + y, x) ```|
 | Map |```x.map{\|el\| el*2}```|```lx.map((el)=> el*2) ```|```map(lambda el: el*2,x)```|
