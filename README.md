@@ -1,5 +1,5 @@
 # Cheat sheet: Ruby vs Javascript vs Python
-Similarities between Ruby, Javascript and Python languages
+An Analogy between the Ruby, Javascript and Python languages
 
 
 | Description   |Ruby           | Javascript     |Python |
