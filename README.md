@@ -1,5 +1,5 @@
 # Cheat sheet: Ruby vs Javascript vs Python
-An Analogy between the Ruby, Javascript and Python languages
+An analogy between the Ruby, Javascript and Python languages
 
 
 | Description   |Ruby           | Javascript     |Python |
@@ -24,7 +24,8 @@ An Analogy between the Ruby, Javascript and Python languages
 | Add last element|```x.push(9) ; x.append(9)```|```x.push(9)```|``` x.append(9); x.extend([9]); x.insert(len(x), 9)```|
 | Add first element|```x.unshift(2)```|```x.unshift(2)```|``` x.insert(0,2) ```|
 | Sort |```x.sort```|```tx.sort() ```|```x.sort()```|
-| Make a copy|```y = x.dup ```|```let y = [...x] ```|``` y = x[:] ```| 
+| Reverse|```x.reverse```|```x.reverse()```|```x.reverse()```| 
+| Make a copy|```y = x.dup ```|```let y = [...x] ```|``` y = x[:] ```|
 | Select, filter |```x.select{\|el\| el > 4 }```|```x.filter((el)=> el > 4)```|```filter(lambda el: el > 4, x)```|
 | Reduce |```x.reduce(:+)```|```lx.reduce((result,el)=> result + el,0) ```|```reduce(lambda result,y: result + y, x) ```|
 | Map |```x.map{\|el\| el*2}```|```lx.map((el)=> el*2) ```|```map(lambda el: el*2,x)```|
