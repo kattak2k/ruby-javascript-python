@@ -4,6 +4,7 @@ An analogy between the Ruby, Javascript and Python languages
 
 | Description   |Ruby           | Javascript     |Python |
 | ------------- |:--------------:| :-----:|:--------:|
+| Cli| irb | python | node |
 | Integers & floats declaration    |``` x = 1 ; y = 0.23 ```|``` let x = 1; var y = 0.23 ```|```x = 1 ; y = 0.23```|
 | Contants Declaration     |``` W = 'ruby'.freeze ```|``` const w = 'js' ```|``` W = 'ruby' ```|
 | Variables in strings     |``` "one is #{x}" ```|``` `one is ${w}\` ```|``` "one is {}".format(x) ```|
@@ -21,10 +22,11 @@ An analogy between the Ruby, Javascript and Python languages
 | ------------- |:--------------:| :-----:|:--------:|
 | Remove last element|```x.pop ; x.pop(2)```|```x.pop()```|```x.pop() ```|
 | Remove first element|```x.shift(9) ```|```x.shift()```|``` x.remove(x[0]) ; del x[0] ```|
-| Add last element|```x.push(9) ; x.append(9)```|```x.push(9)```|``` x.append(9); x.extend([9]); x.insert(len(x), 9)```|
+| Add last element|```x.push(9) ; x.append(9)```|```x.push(9); y.concat(5)```|``` x.append(9); x.extend([9]); x.insert(len(x), 9)```|
 | Add first element|```x.unshift(2)```|```x.unshift(2)```|``` x.insert(0,2) ```|
 | Sort |```x.sort```|```tx.sort() ```|```x.sort()```|
 | Reverse|```x.reverse```|```x.reverse()```|```x.reverse()```| 
+| Count|```x.count(6)```|```x.count(6)```|```var count = {}; y.forEach(val => count[val] = (count[val] \|\| 0) + 1);```| 
 | Make a copy|```y = x.dup ```|```let y = [...x] ```|``` y = x[:] ```|
 | Select, filter |```x.select{\|el\| el > 4 }```|```x.filter((el)=> el > 4)```|```filter(lambda el: el > 4, x)```|
 | Reduce |```x.reduce(:+)```|```lx.reduce((result,el)=> result + el,0) ```|```reduce(lambda result,y: result + y, x) ```|
