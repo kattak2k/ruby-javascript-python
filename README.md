@@ -18,8 +18,9 @@ An analogy between the Ruby, Javascript and Python languages
 
 
 ## Arrays Functions where x is [3,4,5,6,7,8]
+
 | Description   |Ruby           | Javascript     |Python |
-| ------------- |:--------------:| :-----:|:--------:|
+| :------------- |:--------------:| :-----:|:--------:|
 | Remove last element|```x.pop```<br/>```x.pop(2)```|```x.pop()```|```x.pop() ```|
 | Remove first element|```x.shift(9) ```|```x.shift()```|``` x.remove(x[0])```<br/>```del x[0] ```|
 | Add last element|```x.push(9)```<br/>```x.append(9)```<br/>``` x << 9```|```x.push(9)```<br/>```y.concat(5)```|``` x.append(9); x.extend([9]); x.insert(len(x), 9)```|
@@ -37,12 +38,13 @@ An analogy between the Ruby, Javascript and Python languages
 | Each |``` z = []```  </br> ``` x.each{\|el\| z << el*2}``` </br> ```p z ``` |```let z = []``` </br> ```lx.forEach((el) => z.push(el * 2))``` </br> ```console.log(z)```|``` for e in y: ``` </br> ```z.append(e * 2)```</br> ```print z ```|
 | Reverse loop |``` z = []```  </br> ``` x.reverse_each{\|el\| z << el*2}``` </br> ```p z ``` |```let z = []``` </br> ```x.slice().reverse().forEach((el) => z.push(el * 2))``` </br> ```console.log(z)```|``` for e in range(len(x) - 1, -1,-1): ``` </br> ```z.append(e * 2)```</br> ```print z ```|
 | Clear , Reset |```x.clear```|```x = [] ```|```del x[:]```|
-|<template>|``` ```|``` ```|``` ```|
+
   
-## Working with two arrays x = [1,2,3] & y = [2,4,5,6]
+## Working with multiple arrays. where, x is [1,2,3] & y is [2,4,5,6]
+
 | Description   |Ruby           | Javascript     |Python |
-| ------------- |:--------------:| :-----:|:--------:|
+| :------------- |:--------------:| :-----:|:--------:|
 |Intersection|```x & y #=> [2]```|``` ```|``` ```|
-|Union|```x | y```</br>```x.union(y)```|``` ```|``` ```|
+|Union|```x \| y```</br>```x.union(y)```|``` ```|``` ```|
 |Join|```x + y```|``` ```|``` ```|
 |Difference|```x - y```|``` ```|``` ```|
