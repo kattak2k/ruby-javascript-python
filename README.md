@@ -45,6 +45,6 @@ An analogy between the Ruby, Javascript and Python languages
 | Description   |Ruby           | Javascript     |Python |
 | :------------- |:--------------:| :-----:|:--------:|
 |Intersection|```x & y #=> [2]```|```x.filter(e => y.includes(e)) ```|```list(set(x) & set(y)) ```|
-|Union|```x \| y```</br>```x.union(y)```|```var z = [...x,...y]```</br>```[...new Set( z )]```</br> 'or'```Array.from(new Set(z)) ```|```list(set(x) | set(y)) ```|
+|Union|```x \| y```</br>```x.union(y)```|```var z = [...x,...y]```</br>```[...new Set( z )]```</br> 'or'```Array.from(new Set(z)) ```|```list(set(x) \| set(y)) ```|
 |Join|```x + y```|```[...x,...y] ```|```x + y```|
 |Difference|```x - y```|```x.filter(e => !y.includes(e)); ```|``` list(set(x) - set(y))```|
