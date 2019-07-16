@@ -22,7 +22,7 @@ An analogy between the Ruby, Javascript and Python languages
 | ------------- |:--------------:| :-----:|:--------:|
 | Remove last element|```x.pop ; x.pop(2)```|```x.pop()```|```x.pop() ```|
 | Remove first element|```x.shift(9) ```|```x.shift()```|``` x.remove(x[0]) ; del x[0] ```|
-| Add last element|```x.push(9) ; x.append(9)```|```x.push(9); y.concat(5)```|``` x.append(9); x.extend([9]); x.insert(len(x), 9)```|
+| Add last element|```x.push(9) ; x.append(9); x << 9```|```x.push(9); y.concat(5)```|``` x.append(9); x.extend([9]); x.insert(len(x), 9)```|
 | Add first element|```x.unshift(2)```|```x.unshift(2)```|``` x.insert(0,2) ```|
 | Sort |```x.sort```|```x.sort() ```|```x.sort()```|
 | Reverse|```x.reverse```|```x.reverse()```|```x.reverse()```| 
