@@ -38,3 +38,11 @@ An analogy between the Ruby, Javascript and Python languages
 | Reverse loop |``` z = []```  </br> ``` x.reverse_each{\|el\| z << el*2}``` </br> ```p z ``` |```let z = []``` </br> ```x.slice().reverse().forEach((el) => z.push(el * 2))``` </br> ```console.log(z)```|``` for e in range(len(x) - 1, -1,-1): ``` </br> ```z.append(e * 2)```</br> ```print z ```|
 | Clear , Reset |```x.clear```|```x = [] ```|```del x[:]```|
 |<template>|``` ```|``` ```|``` ```|
+  
+## Working with two arrays x = [1,2,3] & y = [2,4,5,6]
+| Description   |Ruby           | Javascript     |Python |
+| ------------- |:--------------:| :-----:|:--------:|
+|Intersection|```x & y #=> [2]```|``` ```|``` ```|
+|Union|```x | y```</br>```x.union(y)```|``` ```|``` ```|
+|Join|```x + y```|``` ```|``` ```|
+|Difference|```x - y```|``` ```|``` ```|
