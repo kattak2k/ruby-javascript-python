@@ -20,14 +20,14 @@ An analogy between the Ruby, Javascript and Python languages
 ## Arrays Functions where x is [3,4,5,6,7,8]
 | Description   |Ruby           | Javascript     |Python |
 | ------------- |:--------------:| :-----:|:--------:|
-| Remove last element|```x.pop ; x.pop(2)```|```x.pop()```|```x.pop() ```|
-| Remove first element|```x.shift(9) ```|```x.shift()```|``` x.remove(x[0]) ; del x[0] ```|
-| Add last element|```x.push(9) ; x.append(9); x << 9```|```x.push(9); y.concat(5)```|``` x.append(9); x.extend([9]); x.insert(len(x), 9)```|
+| Remove last element|```x.pop```<br/>```x.pop(2)```|```x.pop()```|```x.pop() ```|
+| Remove first element|```x.shift(9) ```|```x.shift()```|``` x.remove(x[0])```<br/>```del x[0] ```|
+| Add last element|```x.push(9)```<br/>```x.append(9)```<br/>``` x << 9```|```x.push(9)```<br/>```y.concat(5)```|``` x.append(9); x.extend([9]); x.insert(len(x), 9)```|
 | Add first element|```x.unshift(2)```|```x.unshift(2)```|``` x.insert(0,2) ```|
 | Sort |```x.sort```|```x.sort() ```|```x.sort()```|
 | Reverse|```x.reverse```|```x.reverse()```|```x.reverse()```| 
 | Count|```x.count(6)```|```var count = {};``` <br/> ```y.forEach(val => count[val] = (count[val] \|\| 0) + 1);```|```x.count(6)```| 
-| Length|```x.length; x.size,; x.count```|```y.length```|```len(y)```| 
+| Length|```x.length; x.size; x.count```|```y.length```|```len(y)```| 
 |index|```x.index(3)```|```x.indexOf(3)```|```x.index(3)```|
 |insert|```x.insert(2, 'Feb')```|```x.splice(1, 0, 'Feb')```|```x.insert(2, 'Feb')```|
 | Make a copy|```y = x.dup ```|```let y = [...x] ```|``` y = x[:] ```|
