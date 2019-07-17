@@ -1,6 +1,13 @@
 # Cheat sheet: Ruby vs Javascript vs Python
 An analogy between the Ruby, Javascript and Python languages
 
+### Table Of Contents
+1. [Basics Intro](#intro)
+2. [Arrays Functions](#functions)
+3. [Working with multiple arrays](#multiple)
+4. [Logical Conditions](#conditions)
+
+<h1 id=intro>Basics Intro </h1>
 
 | Description   |Ruby           | Javascript     |Python |
 | ------------- |:--------------:| :-----:|:--------:|
@@ -16,8 +23,8 @@ An analogy between the Ruby, Javascript and Python languages
 | Destructuring |``` a,b,c = [2,3,4] ; p b```|``` var {x : a , y: b} = {x : 1, y : 2} ; console.log(b) ```|```a,b,c = [2,3,4]```|
 
 
-
-## Arrays Functions where x is [3,4,5,6,7,8]
+<h1 id=functions>Arrays Functions </h1>
+where x is [3,4,5,6,7,8]
 
 | Description   |Ruby           | Javascript     |Python |
 | :------------- |:--------------:| :-----:|:--------:|
@@ -40,7 +47,8 @@ An analogy between the Ruby, Javascript and Python languages
 | Clear , Reset |```x.clear```|```x = [] ```|```del x[:]```|
 
   
-## Working with multiple arrays. where, x is [1,2,3] & y is [2,4,5,6]
+<h1 id=multiple>Working with multiple arrays</h1>
+where, x is [1,2,3] & y is [2,4,5,6]
 
 | Description   |Ruby           | Javascript     |Python |
 | :------------- |:--------------:| :-----:|:--------:|
@@ -49,7 +57,8 @@ An analogy between the Ruby, Javascript and Python languages
 |Join|```x + y```|```[...x,...y] ```|```x + y```|
 |Difference|```x - y```|```x.filter(e => !y.includes(e)); ```|``` list(set(x) - set(y))```|
 
-## Logical Conditions
+<h1 id=conditions>Logical Conditions</h1>
+
 | Description   |Ruby           | Javascript     |Python |
 | :------------- |:--------------| :-----|:--------|
 | If |```if <condition1>```</br>```elsif <condition2> ```</br>```else ```</br> ```end```|```if <condition1>:```</br>``` elif <condition2>:```</br> ``` else:```|```if (<condition1>) {```</br>```} else if (<condition2>) {```</br>```} else {```</br>```} ```|  
