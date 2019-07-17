@@ -23,8 +23,8 @@ An analogy between the Ruby, Javascript and Python languages
 | Destructuring |``` a,b,c = [2,3,4] ; p b```|``` var {x : a , y: b} = {x : 1, y : 2} ; console.log(b) ```|```a,b,c = [2,3,4]```|
 
 
-<h3 id=functions>Arrays Functions <p><em>where x is [3,4,5,6,7,8]</em></p></h3>
-
+<h3 id=functions>Arrays Functions </h3>
+<p><em>where x is [3,4,5,6,7,8]</em></p>
 
 | Description   |Ruby           | Javascript     |Python |
 | :------------- |:--------------:| :-----:|:--------:|
@@ -47,8 +47,8 @@ An analogy between the Ruby, Javascript and Python languages
 | Clear , Reset |```x.clear```|```x = [] ```|```del x[:]```|
 
   
-<h3 id=multiple>Compound arrays <p><em>where, x is [1,2,3] & y is [2,4,5,6]</p></em></h3>
-
+<h3 id=multiple>Compound arrays </h3>
+<p><em>where, x is [1,2,3] & y is [2,4,5,6]</p></em>
 
 | Description   |Ruby           | Javascript     |Python |
 | :------------- |:--------------:| :-----:|:--------:|
