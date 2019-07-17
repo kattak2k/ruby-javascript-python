@@ -52,5 +52,6 @@ An analogy between the Ruby, Javascript and Python languages
 ## Logical Conditions
 | Description   |Ruby           | Javascript     |Python |
 | :------------- |:--------------| :-----|:--------|
-| If |```if <condition1>```</br>```elsif <condition2> ```</br>```else ```</br> ```end```|```if <condition1>:```</br>``` elif <condition2>:```</br> ``` else:```|```if (condition1) {```</br>```} else if (condition2) {```</br>```} else {```</br>```} ```|  
+| If |```if <condition1>```</br>```elsif <condition2> ```</br>```else ```</br> ```end```|```if <condition1>:```</br>``` elif <condition2>:```</br> ``` else:```|```if (<condition1>) {```</br>```} else if (<condition2>) {```</br>```} else {```</br>```} ```|  
+
 
