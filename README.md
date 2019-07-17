@@ -48,3 +48,9 @@ An analogy between the Ruby, Javascript and Python languages
 |Union|```x \| y```</br>```x.union(y)```|```var z = [...x,...y]```</br>```[...new Set( z )]```</br> 'or'```Array.from(new Set(z)) ```|```list(set(x) \| set(y)) ```|
 |Join|```x + y```|```[...x,...y] ```|```x + y```|
 |Difference|```x - y```|```x.filter(e => !y.includes(e)); ```|``` list(set(x) - set(y))```|
+
+## Logical Conditions
+| Description   |Ruby           | Javascript     |Python |
+| :------------- |:--------------| :-----|:--------|
+| If |```if <condition1>```</br>```elsif <condition2> ```</br>```else ```</br> ```end```|```if <condition1>:```</br>``` elif <condition2>:```</br> ``` else:```|```if (condition1) {```</br>```} else if (condition2) {```</br>```} else {```</br>```} ```|  
+
