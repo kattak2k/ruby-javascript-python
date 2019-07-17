@@ -7,7 +7,7 @@ An analogy between the Ruby, Javascript and Python languages
 3. [Combining Arrays](#multiple)
 4. [Logical Conditions](#conditions)
 
-<h1 id=intro>Basics Intro </h1>
+<h3 id=intro>Basics Intro </h3>
 
 | Description   |Ruby           | Javascript     |Python |
 | ------------- |:--------------:| :-----:|:--------:|
@@ -23,7 +23,7 @@ An analogy between the Ruby, Javascript and Python languages
 | Destructuring |``` a,b,c = [2,3,4] ; p b```|``` var {x : a , y: b} = {x : 1, y : 2} ; console.log(b) ```|```a,b,c = [2,3,4]```|
 
 
-<h1 id=functions>Arrays Functions </h1>
+<h3 id=functions>Arrays Functions </h3>
 where x is [3,4,5,6,7,8]
 
 | Description   |Ruby           | Javascript     |Python |
@@ -47,7 +47,7 @@ where x is [3,4,5,6,7,8]
 | Clear , Reset |```x.clear```|```x = [] ```|```del x[:]```|
 
   
-<h1 id=multiple>Working with multiple arrays</h1>
+<h3 id=multiple>Working with multiple arrays</h3>
 where, x is [1,2,3] & y is [2,4,5,6]
 
 | Description   |Ruby           | Javascript     |Python |
@@ -57,7 +57,7 @@ where, x is [1,2,3] & y is [2,4,5,6]
 |Join|```x + y```|```[...x,...y] ```|```x + y```|
 |Difference|```x - y```|```x.filter(e => !y.includes(e)); ```|``` list(set(x) - set(y))```|
 
-<h1 id=conditions>Logical Conditions</h1>
+<h3 id=conditions>Logical Conditions</h3>
 
 | Description   |Ruby           | Javascript     |Python |
 | :------------- |:--------------| :-----|:--------|
