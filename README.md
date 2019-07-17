@@ -4,7 +4,7 @@ An analogy between the Ruby, Javascript and Python languages
 ### Table Of Contents
 1. [Basics Intro](#intro)
 2. [Arrays Functions](#functions)
-3. [Combining Arrays](#multiple)
+3. [Compound Arrays](#multiple)
 4. [Logical Conditions](#conditions)
 
 <h3 id=intro>Basics Intro </h3>
@@ -47,7 +47,7 @@ where x is [3,4,5,6,7,8]
 | Clear , Reset |```x.clear```|```x = [] ```|```del x[:]```|
 
   
-<h3 id=multiple>Working with multiple arrays</h3>
+<h3 id=multiple>Compound arrays</h3>
 where, x is [1,2,3] & y is [2,4,5,6]
 
 | Description   |Ruby           | Javascript     |Python |
