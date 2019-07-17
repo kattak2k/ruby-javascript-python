@@ -4,7 +4,7 @@ An analogy between the Ruby, Javascript and Python languages
 ### Table Of Contents
 1. [Basics Intro](#intro)
 2. [Arrays Functions](#functions)
-3. [Working with multiple arrays](#multiple)
+3. [Combining Arrays](#multiple)
 4. [Logical Conditions](#conditions)
 
 <h1 id=intro>Basics Intro </h1>
