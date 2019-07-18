@@ -19,7 +19,7 @@ An analogy between the Ruby, Javascript and Python languages
 | Variables in strings     |``` "one is #{x}" ```|``` `one is ${w}\` ```|``` "one is {}".format(x) ```|
 | Line Comment            |``` # this is comment ```|``` // this is comment ```|``` # this is comment ```| 
 | Block comments |```=being ;  =end ```|``` /* block comment */ ```|``` ''' block comment ''' ```|
-| write output |``` puts 'write output' ```|```console.log('write output') ```|```print('write output')```|
+| write output |``` puts 'write output' ```|```console.log('write output')```</br>```document.write("write HTML") ```|```print('write output')```|
 | Arrays , Lists    |``` arr = [1,'a',true] ; arr = Array.new ```|```let arr = [1,'a',true]```|``` arr = [1,'a',True] ```|
 | Hashes, Objects, dictionaries |```hash = { 'a' => 2, :b => 4 }```|```var obj = { 1 : 2 , 'a' : 4}```|```dict = {1: 2, 'd': 'e' }```|
 | Destructuring |``` a,b,c = [2,3,4] ; p b```|``` var {x : a , y: b} = {x : 1, y : 2} ; console.log(b) ```|```a,b,c = [2,3,4]```|
@@ -66,6 +66,7 @@ An analogy between the Ruby, Javascript and Python languages
 | :------------- |:--------------:| :-----:|:--------:|
 |UpperCase|```s.upcase```|```s.toUpperCase() ```|```s.upper() ```|
 |LowerCase|```s.downcase```|```s.toLowerCase() ```|```s.upper() ```|
+|SwapCase|```s.swapcase```|```NA ```|```s.swapcase() ```|
 |Trim|```s.strip!```|```s.trim()```|```s.strip() ```|
 |StartsWith|```s.start_with?('cheat')```|```s.startsWith('Cheat')```|```s.startswith('Cheat') ```|
 |Repeat|```'Hi ' * 3 ```|``` 'Hi '.repeat(3) ```|``` 'Hi ' * 3   ```|
