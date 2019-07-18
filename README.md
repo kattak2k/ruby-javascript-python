@@ -5,7 +5,9 @@ An analogy between the Ruby, Javascript and Python languages
 1. [Basics Intro](#intro)
 2. [Arrays Functions](#functions)
 3. [Compound Arrays](#multiple)
-4. [Logical Conditions](#conditions)
+4. [Strings](#strings)
+5. [Logical Conditions](#conditions)
+
 
 <h3 id=intro>Basics Intro </h3>
 
@@ -57,6 +59,23 @@ An analogy between the Ruby, Javascript and Python languages
 |Join|```x + y```|```[...x,...y] ```|```x + y```|
 |Difference|```x - y```|```x.filter(e => !y.includes(e)); ```|``` list(set(x) - set(y))```|
 
+<h3 id=strings>Strings</h3>
+<p><em>where, s = 'Cheat sheet   '</p></em>
+
+| Description   |Ruby           | Javascript     |Python |
+| :------------- |:--------------:| :-----:|:--------:|
+|UpperCase|```s.upcase```|```s.toUpperCase() ```|```s.upper() ```|
+|LowerCase|```s.downcase```|```s.toLowerCase() ```|```s.upper() ```|
+|Trim|```s.strip!```|```s.trim()```|```s.strip() ```|
+|StartsWith|```s.start_with?('cheat')```|```s.startsWith('Cheat')```|```s.startswith('Cheat') ```|
+|Repeat|```'Hi ' * 3 ```|``` 'Hi '.repeat(3) ```|``` 'Hi ' * 3   ```|
+|Split|```'asdf'.split('')```|``` 'asdf'.split('')```|```list('asdf')``` </br>``` 'a#s#d'.split('#')```|
+|Join|```['a','s','d','f'].join() ```|```["a", "s", "d", "f"].join('')```|```''.join(['a','s','d'])```|
+|Replace|```s.replace('Hey') ```|``` ```|```  ```|
+|Find|```  ```|``` ```|```  ```|
+|Count|```  ```|``` ```|```  ```|
+
+
 <h3 id=conditions>Logical Conditions</h3>
 
 | Description   |Ruby           | Javascript     |Python |
@@ -64,3 +83,7 @@ An analogy between the Ruby, Javascript and Python languages
 | If |```if <condition1>```</br>```elsif <condition2> ```</br>```else ```</br> ```end```|```if <condition1>:```</br>``` elif <condition2>:```</br> ``` else:```|```if (<condition1>) {```</br>```} else if (<condition2>) {```</br>```} else {```</br>```} ```|  
 | case |```case a ```</br>```when <condition1>```</br>```else ```</br> ```end```|```switch(expression) {```</br>```case x:```</br>```break;```</br>```case y:```</br>``` break;```</br>``` default:```</br>```}```|```NA```|  
 |Ternary Operator|``` true == false ? 1 : 2 ```|```  true == false ? 1 : 2```|``` 1 if (True == False) else 2```|
+
+
+
+
