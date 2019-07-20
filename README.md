@@ -8,6 +8,7 @@ An analogy between the Ruby, Javascript and Python languages
 4. [String Functions](#strings)
 5. [Numerical Functions](#numeric)
 6. [Logical Conditions](#conditions)
+7. [Class and Methods or Functions](#cmf)
 
 
 <h3 id=intro>Basics Intro </h3>
@@ -102,6 +103,9 @@ An analogy between the Ruby, Javascript and Python languages
 | case |```case a ```</br>```when <condition1>```</br>```else ```</br> ```end```|```switch(expression) {```</br>```case x:```</br>```break;```</br>```case y:```</br>``` break;```</br>``` default:```</br>```}```|```NA```|  
 |Ternary Operator|``` true == false ? 1 : 2 ```|```  true == false ? 1 : 2```|``` 1 if (True == False) else 2```|
 
+<h3 id=cmf>Class and Methods or Functions</h3>
 
-
+| Description   |Ruby           | Javascript     |Python |
+| :------------- |:--------------| :-----|:--------|
+|<template>|```  ```|``` ```|```  ```|
 
