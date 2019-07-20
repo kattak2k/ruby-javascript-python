@@ -6,7 +6,8 @@ An analogy between the Ruby, Javascript and Python languages
 2. [Arrays Functions](#functions)
 3. [Compound Arrays](#multiple)
 4. [Strings](#strings)
-5. [Logical Conditions](#conditions)
+5. [Numerics](#numeric)
+6. [Logical Conditions](#conditions)
 
 
 <h3 id=intro>Basics Intro </h3>
@@ -50,7 +51,7 @@ An analogy between the Ruby, Javascript and Python languages
 
   
 <h3 id=multiple>Compound arrays </h3>
-<p><em>where, x is [1,2,3] & y is [2,4,5,6]</p></em>
+<p><em>where, x is [1,2,3] & y is [2,4,5,6]</em></p>
 
 | Description   |Ruby           | Javascript     |Python |
 | :------------- |:--------------:| :-----:|:--------:|
@@ -60,7 +61,7 @@ An analogy between the Ruby, Javascript and Python languages
 |Difference|```x - y```|```x.filter(e => !y.includes(e)); ```|``` list(set(x) - set(y))```|
 
 <h3 id=strings>Strings</h3>
-<p><em>where, s = 'Cheat sheet   '</p></em>
+<p><em>where, s = 'Cheat sheet   '</em></p>
 
 | Description   |Ruby           | Javascript     |Python |
 | :------------- |:--------------:| :-----:|:--------:|
@@ -75,6 +76,20 @@ An analogy between the Ruby, Javascript and Python languages
 |Replace|```s.replace('Hey') ```|``` ```|```  ```|
 |Find|```  ```|``` ```|```  ```|
 |Count|```  ```|``` ```|```  ```|
+
+
+<h3 id=numeric>Numerics</h3>
+<p><em>where, el = -22.45</em></p>
+
+| Description   |Ruby           | Javascript     |Python |
+| :------------- |:--------------:| :-----:|:--------:|
+|Ceil|```el.ceil ```|``` Math.ceil(el) ```|```import math``` </br>```math.ceil(el) ```|
+|Floor|``` el.floor ```|```Math.floor(el)```|```math.floor(el)```|
+|Round|``` el.round(1) ```|```Math.round(el)```|```round(el) ```|
+|Absolute|``` el.abs ```|```Math.abs(el)```|```abs(el)```|
+|Random|``` rand(10) ```|```Math.ceil(Math.random(10) * 11)```|```import random``` </br>```random.randrange(1,10) ```|
+|Zero|``` el.zero? ```|``` ```|```  ```|
+|Negative|``` el.negative? ```|``` ```|```  ```|
 
 
 <h3 id=conditions>Logical Conditions</h3>
