@@ -5,8 +5,8 @@ An analogy between the Ruby, Javascript and Python languages
 1. [Basics Intro](#intro)
 2. [Arrays Functions](#functions)
 3. [Compound Arrays](#multiple)
-4. [Strings](#strings)
-5. [Numerics](#numeric)
+4. [String Functions](#strings)
+5. [Numerical Functions](#numeric)
 6. [Logical Conditions](#conditions)
 
 
@@ -39,6 +39,8 @@ An analogy between the Ruby, Javascript and Python languages
 | Reverse|```x.reverse```|```x.reverse()```|```x.reverse()```| 
 | Count|```x.count(6)```|```var count = {};``` <br/> ```y.forEach(val => count[val] = (count[val] \|\| 0) + 1);```|```x.count(6)```| 
 | Length|```x.length; x.size; x.count```|```y.length```|```len(y)```| 
+| Maximum|```x.max```|```Math.max(...x)```|```max(x)```| 
+| Minimum|```x.min```|```Math.min(...x)```|```min(x)```| 
 |index|```x.index(3)```|```x.indexOf(3)```|```x.index(3)```|
 |insert|```x.insert(2, 'Feb')```|```x.splice(1, 0, 'Feb')```|```x.insert(2, 'Feb')```|
 | Make a copy|```y = x.dup ```|```let y = [...x] ```|``` y = x[:] ```|
@@ -60,7 +62,7 @@ An analogy between the Ruby, Javascript and Python languages
 |Join|```x + y```|```[...x,...y] ```|```x + y```|
 |Difference|```x - y```|```x.filter(e => !y.includes(e)); ```|``` list(set(x) - set(y))```|
 
-<h3 id=strings>Strings</h3>
+<h3 id=strings>Strings Functions</h3>
 <p><em>where, s = 'Cheat sheet   '</em></p>
 
 | Description   |Ruby           | Javascript     |Python |
@@ -78,7 +80,7 @@ An analogy between the Ruby, Javascript and Python languages
 |Count|```  ```|``` ```|```  ```|
 
 
-<h3 id=numeric>Numerics</h3>
+<h3 id=numeric>Numerical Functions</h3>
 <p><em>where, el = -22.45</em></p>
 
 | Description   |Ruby           | Javascript     |Python |
