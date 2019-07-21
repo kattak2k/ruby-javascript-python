@@ -108,5 +108,5 @@ An analogy between the Ruby, Javascript and Python languages
 | Description   |Ruby           | Javascript     |Python |
 | :------------- |:--------------| :-----|:--------|
 |Methods|```def name(input)```</br>``` p input```</br>```end  ```|```name = function() {return `${input}`;} ```</br>``` name = (input) => "input"```|```def name(input): ```</br>```print("This is " + input) ```|
-
+|Class|```class Person```</br>```def initialize(name)```</br>```@name = name```</br>```end```</br>```end```|```class Person {```</br>```constructor(name) {```</br>```this.name = name;```</br>```}```</br>```} ```|```class Person:```</br>```def __init__(self, name):```</br>```self.name = name```|
 
