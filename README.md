@@ -107,5 +107,6 @@ An analogy between the Ruby, Javascript and Python languages
 
 | Description   |Ruby           | Javascript     |Python |
 | :------------- |:--------------| :-----|:--------|
-|<template>|```def name(input)```</br>``` p input```</br>```end  ```|```name = function() {return `${input}`;} ```</br>``` name = (input) => "input"```|```def name(input): ```</br>```print("This is " + input) ```|
+|Methods|```def name(input)```</br>``` p input```</br>```end  ```|```name = function() {return `${input}`;} ```</br>``` name = (input) => "input"```|```def name(input): ```</br>```print("This is " + input) ```|
+
 
