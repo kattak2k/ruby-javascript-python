@@ -103,9 +103,9 @@ An analogy between the Ruby, Javascript and Python languages
 | case |```case a ```</br>```when <condition1>```</br>```else ```</br> ```end```|```switch(expression) {```</br>```case x:```</br>```break;```</br>```case y:```</br>``` break;```</br>``` default:```</br>```}```|```NA```|  
 |Ternary Operator|``` true == false ? 1 : 2 ```|```  true == false ? 1 : 2```|``` 1 if (True == False) else 2```|
 
-<h3 id=cmf>Class and Methods or Functions</h3>
+<h3 id=cmf>Class and Methods or Functions or modules</h3>
 
 | Description   |Ruby           | Javascript     |Python |
 | :------------- |:--------------| :-----|:--------|
-|<template>|```  ```|``` ```|```  ```|
+|<template>|```def name(input)```</br>``` p input```</br>```end  ```|```name = function() {return `${input}`;} ```</br>``` name = (input) => "input"```|```def name(input): ```</br>```print("This is " + input) ```|
 
