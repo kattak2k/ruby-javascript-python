@@ -1,3 +1,6 @@
+ [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![HitCount](http://hits.dwyl.io/kattak2k/ruby-javascript-python.svg)](http://hits.dwyl.io/kattak2k/ruby-javascript-python)
+
 # Cheat sheet: Ruby vs Javascript vs Python
 An analogy between the Ruby, Javascript and Python languages
 
