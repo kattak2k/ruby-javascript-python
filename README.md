@@ -106,13 +106,14 @@ An analogy between the Ruby, Javascript and Python languages
 | case |```case a ```</br>```when <condition1>```</br>```else ```</br> ```end```|```switch(expression) {```</br>```case x:```</br>```break;```</br>```case y:```</br>``` break;```</br>``` default:```</br>```}```|```NA```|  
 |Ternary Operator|``` true == false ? 1 : 2 ```|```  true == false ? 1 : 2```|``` 1 if (True == False) else 2```|
 
-<h3 id=cmf>Class and Methods or Functions or modules</h3>
+<h3 id=cmf>Class and Methods or Functions</h3>
 
 | Description   |Ruby           | Javascript     |Python |
 | :------------- |:--------------| :-----|:--------|
-|Methods|```def name(input)```</br>``` p input```</br>```end  ```|```name = function() {return `${input}`;} ```</br>``` name = (input) => "input"```|```def name(input): ```</br>```print("This is " + input) ```|
-|Class|```class Person```</br>```def initialize(name)```</br>```@name = name```</br>```end```</br>```end```|```class Person {```</br>```constructor(name) {```</br>```this.name = name;```</br>```}```</br>```} ```|```class Person:```</br>```def __init__(self, name):```</br>```self.name = name```|
-|Create Object |```p = Person.new('Bezos') ```|```let p = new Person("Bezos")```</br>```let p1 = Object.create(Person)```|```p = Person("Bezos")  ```|
-|Single Inheritance |``` ```|``` ```|``` ```|
-|Multiple Inheritance  |``` ```|``` ```|``` ```|
-|default values |``` ```|``` ```|``` ```|
+|Instance Methods|```def name(input)```</br>``` p input```</br>```end  ```|```name = function(input) {return `${input}`;} ```</br>``` name = (input) => "input"```|```def name(input): ```</br>```print("This is " + input) ```|
+|Static Methods|```def self.age(input)```</br>``` p input```</br>```end  ```|```static age(input) {return `${input}`;} ```|```@classmethod ```</br>```def age(input): ```</br>```print("This is " + input) ```|
+|Class|```class Person```</br>```attr_accessor :name ```</br>```def initialize(name)```</br>```@name = name```</br>```end```</br>```end```|```class Person {```</br>```constructor(name) {```</br>```this.name = name;```</br>```}```</br>```} ```|```class Person:```</br>```def __init__(self, name):```</br>```self.name = name```|
+|create instance Object|```p = Person.new('Bezos')```|```let p = new Person("Bezos")```</br>```let p1 = Object.create(Person)```|```p = Person("Bezos")  ```|
+|Single Inheritance |```class Employee < Person```</br>```def initialize(name)```</br>```super name```</br>```@name = name```</br>```end```</br>```end```|```class Employee extends Person {```</br>```constructor(name) {```</br> ``` super(name)```</br>```this.name = name;```</br>```}```</br>```} ```|``` class Employee(Person):```</br>```def __init__(self, name):```</br>```self.name = name```|
+|Multiple Inheritance  |```module Student```</br>```def walk```</br>```end```</br>```end ```</br>``` class Person```</br>```include Human```</br>```end  ```|```class Student extends Person ```|```class Student(Person): ```|
+|default values |```def name(input='bezos') ```</br>```end```|```function(input='bezos')  ```|```def name(input='bezos') ```|
