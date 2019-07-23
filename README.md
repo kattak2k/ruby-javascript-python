@@ -117,3 +117,13 @@ An analogy between the Ruby, Javascript and Python languages
 |Single Inheritance |```class Employee < Person```</br>```def initialize(name)```</br>```super name```</br>```@name = name```</br>```end```</br>```end```|```class Employee extends Person {```</br>```constructor(name) {```</br> ``` super(name)```</br>```this.name = name;```</br>```}```</br>```} ```|``` class Employee(Person):```</br>```def __init__(self, name):```</br>```self.name = name```|
 |Multiple Inheritance  |```module Student```</br>```def walk```</br>```end```</br>```end ```</br>``` class Person```</br>```include Human```</br>```end  ```|```class Student extends Person ```|```class Student(Person): ```|
 |default values |```def name(input='bezos') ```</br>```end```|```function(input='bezos')  ```|```def name(input='bezos') ```|
+
+
+<h3 id=regex>Regex</h3>
+<p><em>where, lx = "titan titan titan"</em></p>
+
+| Description   |Ruby           | Javascript     |Python |
+| :------------- |:--------------| :-----|:--------|
+|first occurrence |```lx.match(/t[a-z]*n/)[0]```|```(/t[a-z]*n/).test(lx) //=> true ```|``` ```|
+|all occurrences |```lx.scan(/t[a-z]*n/)```|```lx.match(/t[a-z]*n/gi)```|``````|
+
