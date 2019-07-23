@@ -125,6 +125,6 @@ An analogy between the Ruby, Javascript and Python languages
 
 | Description   |Ruby           | Javascript     |Python |
 | :------------- |:--------------| :-----|:--------|
-|first occurrence |```lx.match(/t[a-z]*n/)[0]```|```(/t[a-z]*n/).test(lx) //=> true ```|``` ```|
-|all occurrences |```lx.scan(/t[a-z]*n/)```|```lx.match(/t[a-z]*n/gi)```|``````|
+|First occurrence |```lx.match(/t[a-z]*n/)[0]```|```(/t[a-z]*n/).test(lx) //=> true ```|```re.search("t[a-z]*n", lx).group() ```|
+|All occurrences |```lx.scan(/t[a-z]*n/)```|```lx.match(/t[a-z]*n/gi)```|```re.findall("t[a-z]*n",lx)```|
 
