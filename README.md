@@ -12,6 +12,7 @@ An analogy between the Ruby, Javascript and Python languages
 5. [Numerical Functions](#numeric)
 6. [Logical Conditions](#conditions)
 7. [Class and Methods or Functions](#cmf)
+8. [Regular expression (Regex)](#regex)
 
 
 <h3 id=intro>Basics Intro </h3>
@@ -119,7 +120,7 @@ An analogy between the Ruby, Javascript and Python languages
 |default values |```def name(input='bezos') ```</br>```end```|```function(input='bezos')  ```|```def name(input='bezos') ```|
 
 
-<h3 id=regex>Regex</h3>
+<h3 id=regex>Regular expression (Regex)</h3>
 <p><em>where, lx = "titan titan titan"</em></p>
 
 | Description   |Ruby           | Javascript     |Python |
