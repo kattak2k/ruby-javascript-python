@@ -13,7 +13,7 @@ An analogy between the Ruby, Javascript and Python languages
 6. [Logical Conditions](#conditions)
 7. [Class and Methods or Functions](#cmf)
 8. [Regular expression (Regex)](#regex)
-
+9. [Heredocs](#heredoc)
 
 <h3 id=intro>Basics Intro </h3>
 
