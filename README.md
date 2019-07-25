@@ -128,3 +128,8 @@ An analogy between the Ruby, Javascript and Python languages
 |First occurrence |```lx.match(/t[a-z]*n/)[0]```|```(/t[a-z]*n/).test(lx) //=> true ```|```import re```</br>```re.search("t[a-z]*n", lx).group() ```|
 |All occurrences |```lx.scan(/t[a-z]*n/)```|```lx.match(/t[a-z]*n/gi)```|```re.findall("t[a-z]*n",lx)```|
 
+<h3 id=heredoc>Heredocs</h3>
+
+| Description   |Ruby           | Javascript     |Python |
+| :------------- |:--------------| :-----|:--------|
+| Multiline string |```content = <<~HEREDOC```</br>```I welcome your contributions.```</br>```please suggest```</br>```a topic ```</br>```or report an issue```</br>```HEREDOC```</br>```p content```|```  ```|```content = """ I welcome your contributions.```</br>```please suggest```</br>```a topic ```</br>```or report an issue```</br>```"""```</br>```print(content)```|
