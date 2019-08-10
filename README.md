@@ -13,7 +13,8 @@ An analogy between the Ruby, Javascript and Python languages
 6. [Logical Conditions](#conditions)
 7. [Class and Methods or Functions](#cmf)
 8. [Regular expression (Regex)](#regex)
-9. [Heredocs](#heredoc)
+9. [Type Conversion](#convert)
+10. [Heredocs](#heredoc)
 
 <h3 id=intro>Basics Intro </h3>
 
@@ -128,6 +129,13 @@ An analogy between the Ruby, Javascript and Python languages
 |First occurrence |```lx.match(/t[a-z]*n/)[0]```|```(/t[a-z]*n/).test(lx) //=> true ```|```import re```</br>```re.search("t[a-z]*n", lx).group() ```|
 |All occurrences |```lx.scan(/t[a-z]*n/)```|```lx.match(/t[a-z]*n/gi)```|```re.findall("t[a-z]*n",lx)```|
 
+<h3 id=convert>Type Conversion</h3>
+
+| Description   |Ruby           | Javascript     |Python |
+| :------------- |:--------------| :-----|:--------|
+| string to Integer </br> <em>where, str2int = \'99\'<em> |```str2int.to_i ```|```int(str2int) ```|```parseInt(str2int)```</br> ```Number(str2int)```|
+| Integer to string</br> <em>where, int2str = 66<em> |```int2str.to_s ```|```str(int2str) ```|```int2str.toString()```|
+ 
 <h3 id=heredoc>Heredocs</h3>
 
 | Description   |Ruby           | Javascript     |Python |
